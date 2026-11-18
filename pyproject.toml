@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello"
+version = "0.1"
+description = "Hello Distribution Module"
+authors = [
+    { name = "José Luis Guijarro" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+py-modules = ["hello"]
